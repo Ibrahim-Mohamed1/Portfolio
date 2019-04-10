@@ -17,7 +17,7 @@ const Projects = () => {
             cursor: "pointer"
         },
         navMargin:{
-            marginLeft: "8%",
+            marginLeft: "5%",
             textDecoration: "none"
         },
         project:{
@@ -35,7 +35,7 @@ const Projects = () => {
     return (
         <>
             <div style={styles.parent}>
-                <img className="nav" style={styles.logo} src={logo} alt=""/>
+                <a style={{marginRight: "auto"}} href="/"><img className="nav" style={styles.logo} src={logo} alt=""/></a>
                 <h3 style={{...styles.navMargin}}><Link className="link" style={{ textDecoration: "none"}}  to="/">Home</Link></h3>
                 <h3 className="nav" style={styles.navMargin}><Link style={{ textDecoration: "none",color:"#ff9450"}}  to="/projects">Projects</Link></h3>
                 <h3 style={{...styles.navMargin}}><Link className="link" style={{ textDecoration: "none",}} to="/resume">Resume</Link></h3>

@@ -18,7 +18,7 @@ const Resume = () => {
             marginRight: "auto"
         },
         navMargin:{
-            marginLeft: "8%",
+            marginLeft: "5%",
         },
         resume:{
             display:"block",
@@ -47,11 +47,11 @@ const Resume = () => {
     return (
         <>
             <div style={styles.parent}>
-                <img style={styles.logo} src={logo} alt=""/>
-                <h3  style={{...styles.navMargin, color:"#fbbc06"}}><Link style={{ textDecoration: "none",color:"white"}} to="/">Home</Link></h3>
-                <h3  style={styles.navMargin}><Link style={{ textDecoration: "none",color:"white"}}  to="/projects">Projects</Link></h3>
-                <h3 className='nav' style={{...styles.navMargin, color:"#fbbc06"}}><Link style={{ textDecoration: "none", color:"#ff9450"}} to="/resume">Resume</Link></h3>
-                <h3  style={{...styles.navMargin, color:"#fbbc06", marginRight:"3%"}}><Link style={{ textDecoration: "none", color:"white"}} to="/contact">Contact</Link></h3>
+                <a style={{marginRight: "auto"}} href="/"><img className="nav" style={styles.logo} src={logo} alt=""/></a>
+                <h3  style={{...styles.navMargin, color:"#fbbc06"}}><Link className="link" style={{ textDecoration: "none"}} to="/">Home</Link></h3>
+                <h3  style={styles.navMargin}><Link className="link" style={{ textDecoration: "none"}}  to="/projects">Projects</Link></h3>
+                <h3 className='nav' style={{...styles.navMargin, color:"#fbbc06"}}><Link className="link" style={{ textDecoration: "none", color:"#ff9450"}} to="/resume">Resume</Link></h3>
+                <h3  style={{...styles.navMargin, color:"#fbbc06", marginRight:"3%"}}><Link className="link" style={{ textDecoration: "none"}} to="/contact">Contact</Link></h3>
             </div>
             <h1 style={styles.reachOut}>Want to get in touch?</h1>
             <Link to="/contact" style={{textDecoration:"none"}}><button className="button nav" style={{...styles.button}}>Contact me</button></Link>

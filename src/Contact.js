@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 import logo from "./logo.png"
 import profile from "./screenshots/profile.png"
 
-const Contact = () => {
+const Contact = (props) => {
     const styles={
         parent:{
             display: "flex",
@@ -18,7 +18,7 @@ const Contact = () => {
             marginRight: "auto"
         },
         navMargin:{
-            marginLeft: "8%",
+            marginLeft: "5%",
             textDecoration: "none"
         },
         profilePic:{
@@ -44,14 +44,14 @@ const Contact = () => {
     return (
         <>
             <div style={styles.parent}>
-                <img style={styles.logo} src={logo} alt=""/>
-                <h3  style={{...styles.navMargin, color:"#fbbc06"}}><Link style={{ textDecoration: "none",color:"white"}}  to="/">Home</Link></h3>
-                <h3  style={styles.navMargin}><Link style={{ textDecoration: "none",color:"white"}}  to="/projects">Projects</Link></h3>
-                <h3  style={{...styles.navMargin, color:"#fbbc06"}}><Link style={{ textDecoration: "none", color:"white"}} to="/resume">Resume</Link></h3>
-                <h3 className='nav' style={{...styles.navMargin, color:"#fbbc06", marginRight:"3%"}}><Link style={{ textDecoration: "none",color:"#ff9450"}}  to="/contact">Contact</Link></h3>
+                <a style={{marginRight: "auto"}} href="/"><img className="nav" style={styles.logo} src={logo} alt=""/></a>
+                <h3  style={{...styles.navMargin, color:"#fbbc06"}}><Link className="link" style={{ textDecoration: "none"}}  to="/">Home</Link></h3>
+                <h3  style={styles.navMargin}><Link className="link" style={{ textDecoration: "none"}}  to="/projects">Projects</Link></h3>
+                <h3  style={{...styles.navMargin, color:"#fbbc06"}}><Link className="link" style={{ textDecoration: "none"}} to="/resume">Resume</Link></h3>
+                <h3 className='nav' style={{...styles.navMargin, color:"#fbbc06", marginRight:"3%"}}><Link className="link" style={{ textDecoration: "none",color:"#ff9450"}}  to="/contact">Contact</Link></h3>
             </div>
             <img style={styles.profilePic} src={profile} alt=""/>
-            <h1 className="nav connect" style={styles.connect}>Let's connect :)</h1>
+            <h1 className="nav connect" style={{...styles.connect, cursor:"default"}}>Let's connect :)</h1>
             <h3 style={styles.email}>
                 Want to get in touch or have a 
                 <br/>
