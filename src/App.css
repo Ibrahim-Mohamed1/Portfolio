@@ -1,33 +1,261 @@
-.App {
+.nav:hover {
+    animation: shake 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-5deg); }
+    20% { transform: translate(-3px, 0px) rotate(5deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(5deg); }
+    50% { transform: translate(-1px, 2px) rotate(-5deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-5deg); }
+    80% { transform: translate(-1px, -1px) rotate(5deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-5deg); }
+  }
+  .link{
+    color: gray;
+    transition: ease-out;
+    transition-duration: 1s;
+  }
+  .link:hover{
+    color: white;
+    transition: ease-out;
+    transition-duration: 0s;
+    cursor: pointer;
+  }
+.projects {
   text-align: center;
+  grid-gap: 10px;
+  margin-top: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 80vh;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.project1{
+  position: relative;
+  background-image: url(./screenshots/cuisinehunter.png);
+  display:inline-block;
+  margin: 0% 2%;
+  border: solid ;
+  border-radius: 10px;
+  background-color:rgba(255, 255, 255, 0.8);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 280px;
+  width: 400px;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.project2{
+  position: relative;
+  background-image: url(./screenshots/crypto.png);
+  display:inline-block;
+  margin: 0% 2%;
+  border: solid ;
+  border-radius: 10px;
+  background-color:rgba(255, 255, 255, 0.8);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 280px;
+  width: 400px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.project3{
+  position: relative;
+  background-image: url(./screenshots/news.png);
+  display:inline-block;
+  margin: 0% 2%;
+  border: solid ;
+  border-radius: 10px;
+  background-color:rgba(255, 255, 255, 0.8);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 280px;
+  width: 400px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.project5{
+  position: relative;
+  background-image: url(./screenshots/todo.png);
+  display:inline-block;
+  margin: 0% 2%;
+  border: solid ;
+  border-radius: 10px;
+  background-color:rgba(255, 255, 255, 0.8);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 280px;
+  width: 400px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.project1:hover{
+  background-image: url(./screenshots/default.jpg);
+  opacity: .7;
+  cursor: "pointer";
+}
+.project2:hover{
+  background-image: url(./screenshots/default.jpg);
+  opacity: .7;
+  cursor: "pointer";
+}
+.project3:hover{
+  background-image: url(./screenshots/default.jpg);
+  opacity: .7;
+  cursor: "pointer";
+}
+.project5:hover{
+  background-image: url(./screenshots/default.jpg);
+  opacity: .7;
+  cursor: "pointer";
+}
+.middle{
+  opacity: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 95%;
+  transition: .5s ease;
+  color: white;
+  /* backface-visibility: hidden; */
+}
+.middle:hover{
+  opacity: 1;
+}
+.projectInfo{
+  position: absolute;
+  opacity: 1;
+  display: block;
+  padding-top: 2em;
+  width: 100%;
+  height: 95%;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.projectInfo:hover{
+  opacity: 1;
+}
+.button{
+  color: lightgray;
+  background-color: black;
+  border: solid 1px #ff9450;
+  transition: ease-in;
+  transition-duration: 1s;
+}
+.button:hover{
+  color: #ff9450;
+  border: solid 1px gray;
+  transition: ease-in;
+  transition-duration: .5s;
+}
+.connect{
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 1%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+@media (max-width: 1260px){
+  .projects{
+    margin-left: 0;
+    margin-right: 0;
   }
-  to {
-    transform: rotate(360deg);
+} 
+@media (max-width: 882px){
+  .project1{
+    margin-top: 2em;
+    height: 230px;
+    width: 300px;
   }
-}
+  .project2{
+    margin-top: 2em;
+    height: 230px;
+    width: 300px;
+  }
+  .project3{
+    margin-top: 2em;
+    height: 230px;
+    width: 300px;
+  }
+  .project5{
+    margin-top: 2em;
+    height: 230px;
+    width: 300px;
+  }
+  .projects{
+    margin-top: 2em;
+  }
+  .connect{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1%;
+  }
+} 
+@media (max-width: 665px){
+  .projects{
+    margin-top: 2em;
+  }
+  .project1{
+    margin-top: 1em;
+    height: 300px;
+    width: 380px;
+  }
+  .project2{
+    margin-top: 1em;
+    height: 300px;
+    width: 380px;
+  }
+  .project3{
+    margin-top: 1em;
+    height: 300px;
+    width: 380px;
+  }
+  .project5{
+    margin-top: 1em;
+    height: 300px;
+    width: 380px;
+  }
+  .project4{
+    margin-bottom: 5em;
+  }
+} 
+@media (max-width: 520px){
+  
+  .projects{
+    margin-top: 2em;
+  }
+  .project1{
+    margin-top: 1em;
+    height: 250px;
+    width: 300px;
+  }
+  .project2{
+    margin-top: 1em;
+    height: 250px;
+    width: 300px;
+  }
+  .project3{
+    margin-top: 1em;
+    height: 250px;
+    width: 300px;
+  }
+  .project5{
+    margin-top: 1em;
+    height: 250px;
+    width: 300px;
+  }
+  .project4{
+    margin-bottom: 5em;
+  }
+} 
+@media (min-height: 820px){
+  .projects{
+    margin-top: 4em;
+  }
+} 
+
