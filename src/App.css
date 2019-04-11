@@ -1,3 +1,6 @@
+*{
+  box-sizing: margin-box;
+}
 .nav:hover {
     animation: shake 2s;
     animation-iteration-count: infinite;
@@ -157,6 +160,7 @@
   margin-right: 35%;
   padding: 1%;
 }
+
 
 @media (max-width: 1260px){
   .projects{
