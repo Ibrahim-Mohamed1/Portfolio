@@ -50,7 +50,7 @@ const Home = () => {
                 <h3 style={{...styles.navMargin}}><Link className="link" style={{ textDecoration: "none"}} to="/resume">Resume</Link></h3>
                 <h3 style={{...styles.navMargin, marginRight:"3%"}}><Link className="link" style={{ textDecoration: "none"}} to="/contact">Contact</Link></h3>
             </div>
-            <h1 className="link" style={{...styles.introName, textAlign:"center"}}><p className="nav" style={{color:"#ff9450", padding:"1%", margin: 0, marginTop:".75em", display:"inline-block", cursor:"default"}}>Hi,</p></h1>
+            <h1 style={{...styles.introName, textAlign:"center"}}><p className="nav" style={{color:"#ff9450", padding:"1%", margin: 0, marginTop:".75em", display:"inline-block", cursor:"default"}}>Hi,</p></h1>
             <h1 style={{...styles.introName}}> I'm <span className="link" style={{cursor:"default"}}>Ibrahim Mohamed</span>.</h1>
             <h1 style={styles.introLine}>I'm a <p className="nav" style={{color: "#ff9450", display:"inline-block", paddingTop:"1%", paddingBottom:"1%", cursor:"default"}}>Full Stack Developer</p> based in <p className="nav" style={{color: "#ff9450", display:"inline-block", paddingBottom:"1%", paddingTop:"1%", cursor:"default"}}>Salt Lake City</p>, Utah.</h1>
             <Link to="/projects" style={{textDecoration:"none"}}><button className="button nav" style={{...styles.button}}>Projects</button></Link>

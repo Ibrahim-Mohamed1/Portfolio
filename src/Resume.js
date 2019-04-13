@@ -3,6 +3,8 @@ import {Link} from "react-router-dom"
 import logo from "./logo.png"
 import resume from "./resume.png"
 import pdf from "./resume.pdf"
+// const pdf = require("./resume.pdf")
+
 
 const Resume = () => {
     const styles={
@@ -55,8 +57,8 @@ const Resume = () => {
                 <h3  style={{...styles.navMargin, color:"#fbbc06", marginRight:"3%"}}><Link className="link" style={{ textDecoration: "none"}} to="/contact">Contact</Link></h3>
             </div>
             <br/>
-            <a href={pdf} download="Ibrahim Mohamed's Resume.pdf"  style={{textDecoration:"none"}}><button className="button nav" style={{...styles.button}}>Download</button></a>
-            <img style={styles.resume} src={resume} alt=""/>
+            <a href={pdf} download>Download</a>
+            <a href={pdf}><img src={resume} alt="resume"/></a>
         </>
     );
 };

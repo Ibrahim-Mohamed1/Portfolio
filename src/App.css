@@ -144,7 +144,7 @@
 }
 .button{
   color: lightgray;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
   border: solid 1px #ff9450;
   transition: ease-in;
   transition-duration: 1s;
