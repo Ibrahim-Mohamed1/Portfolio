@@ -42,18 +42,6 @@ const Projects = () => {
                 <h3 style={{...styles.navMargin, marginRight:"3%"}}><Link className="link" style={{ textDecoration: "none"}}  to="/contact">Contact</Link></h3>
             </div>
             <div className="projects">
-                <div className="project1" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
-                    <div className='middle'>
-                        <a href="http://cuisine-hunter.surge.sh/" target="_blank" rel="noopener noreferrer">
-                            <div className='projectInfo' style={{marginTop:"-1em"}}>
-                                <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>Cuisine Hunter</h1>
-                                <h4>An app created with React.js to help users find restuarants in Utah serving desired cuisines.
-                                </h4>
-                                <p style={{color:"lime", padding:"5%", margin: 0}}>JavaScript, React, Axios, HTML, CSS, & JSX</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
                 <div className="project2" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
                     <div className='middle'>
                         <a href="http://crypto-dash.surge.sh/" target="_blank" rel="noopener noreferrer">
@@ -63,6 +51,18 @@ const Projects = () => {
                                     An app created with React.js to help users quickly track cryptocurrency stocks live whilst keeping up to date with the latest crypto news.
                                 </h4>
                                 <p style={{color:"lime", padding:"5%", margin: 0}}>React, JavaScript, MongoDB, Mongoose, Axios, Node.js, JSX, HTML, & CSS</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project1" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
+                    <div className='middle'>
+                        <a href="http://cuisine-hunter.surge.sh/" target="_blank" rel="noopener noreferrer">
+                            <div className='projectInfo' style={{marginTop:"-1em"}}>
+                                <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>Cuisine Hunter</h1>
+                                <h4>An app created with React.js to help users find restuarants in Utah serving desired cuisines.
+                                </h4>
+                                <p style={{color:"lime", padding:"5%", margin: 0}}>JavaScript, React, Axios, HTML, CSS, & JSX</p>
                             </div>
                         </a>
                     </div>
