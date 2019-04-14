@@ -3,7 +3,6 @@ import {Link} from "react-router-dom"
 import logo from "./logo.png"
 import resume from "./resume.png"
 import pdf from "./resume.pdf"
-// const pdf = require("./resume.pdf")
 
 
 const Resume = () => {
@@ -12,12 +11,10 @@ const Resume = () => {
             display: "flex",
             flexDirection:"row",
             justifyContent:"space-between",
-            color:"white",
-            margin: "1%"
+            padding: 10
         },
         logo:{
-            width: 50,
-            height: 50,
+            width: 40,
             marginRight: "auto"
         },
         navMargin:{

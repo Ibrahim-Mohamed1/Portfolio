@@ -8,13 +8,11 @@ const Contact = (props) => {
         parent:{
             display: "flex",
             flexDirection:"row",
-            justifyContent:"space-around",
-            color:"white",
-            margin: "1%"
+            justifyContent:"space-between",
+            padding: 10
         },
         logo:{
-            width: 50,
-            height: 50,
+            width: 40,
             marginRight: "auto"
         },
         navMargin:{

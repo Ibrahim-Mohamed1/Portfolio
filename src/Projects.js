@@ -7,14 +7,12 @@ const Projects = () => {
         parent:{
             display: "flex",
             flexDirection:"row",
-            justifyContent:"space-around",
-            margin: "1%"
+            justifyContent:"space-between",
+            padding: 10
         },
         logo:{
-            width: 50,
-            height: 50,
-            marginRight: "auto",
-            cursor: "pointer"
+            width: 40,
+            marginRight: "auto"
         },
         navMargin:{
             marginLeft: "5%",

@@ -8,11 +8,10 @@ const Home = () => {
             display: "flex",
             flexDirection:"row",
             justifyContent:"space-between",
-            margin: "1%"
+            padding: 10
         },
         logo:{
-            width: 50,
-            height: 50,
+            width: 40,
             marginRight: "auto"
         },
         navMargin:{
