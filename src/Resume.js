@@ -57,8 +57,8 @@ const Resume = () => {
                 <h3  style={{...styles.navMargin, color:"#fbbc06", marginRight:"3%"}}><Link className="link" style={{ textDecoration: "none"}} to="/contact">Contact</Link></h3>
             </div>
             <br/>
-            <a href={pdf} download>Download</a>
-            <a href={pdf}><img src={resume} alt="resume"/></a>
+            <a href={pdf} download="Ibrahim Mohamed's Resume" style={{textDecoration:"none"}}><button className="button nav" style={{...styles.button}}>Download</button></a>
+            <a href={pdf}><img style={styles.resume} src={resume} alt=""/></a>
         </>
     );
 };
