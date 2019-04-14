@@ -46,7 +46,7 @@ const Home = () => {
                 <a style={{marginRight: "auto"}} href="/"><img className="nav" style={styles.logo} src={logo} alt=""/></a>
                 <h3 className="nav" style={{...styles.navMargin}}><Link style={{ textDecoration: "none",color:"#ff9450"}} to="/">Home</Link></h3>
                 <h3 style={styles.navMargin}><Link className="link" style={{ textDecoration: "none"}}  to="/projects">Projects</Link></h3>
-                <h3 style={{...styles.navMargin}}><Link className="link" style={{ textDecoration: "none"}} to="/resume">Resume</Link></h3>
+                <h3 style={{...styles.navMargin}}><Link className="link" style={{ textDecoration: "none"}} to="/skills">Skills</Link></h3>
                 <h3 style={{...styles.navMargin, marginRight:"3%"}}><Link className="link" style={{ textDecoration: "none"}} to="/contact">Contact</Link></h3>
             </div>
             <h1 style={{...styles.introName, textAlign:"center"}}><p className="nav" style={{color:"#ff9450", padding:"1%", margin: 0, marginTop:".75em", display:"inline-block", cursor:"default"}}>Hi,</p></h1>

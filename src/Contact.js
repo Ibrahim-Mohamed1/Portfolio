@@ -45,7 +45,7 @@ const Contact = (props) => {
                 <a style={{marginRight: "auto"}} href="/"><img className="nav" style={styles.logo} src={logo} alt=""/></a>
                 <h3  style={{...styles.navMargin, color:"#fbbc06"}}><Link className="link" style={{ textDecoration: "none"}}  to="/">Home</Link></h3>
                 <h3  style={styles.navMargin}><Link className="link" style={{ textDecoration: "none"}}  to="/projects">Projects</Link></h3>
-                <h3  style={{...styles.navMargin, color:"#fbbc06"}}><Link className="link" style={{ textDecoration: "none"}} to="/resume">Resume</Link></h3>
+                <h3  style={{...styles.navMargin, color:"#fbbc06"}}><Link className="link" style={{ textDecoration: "none"}} to="/skills">Skills</Link></h3>
                 <h3 className='nav' style={{...styles.navMargin, color:"#fbbc06", marginRight:"3%"}}><Link className="link" style={{ textDecoration: "none",color:"#ff9450"}}  to="/contact">Contact</Link></h3>
             </div>
             <img style={styles.profilePic} src={profile} alt=""/>
