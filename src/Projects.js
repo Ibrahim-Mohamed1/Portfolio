@@ -40,6 +40,19 @@ const Projects = () => {
                 <h3 style={{...styles.navMargin, marginRight:"3%"}}><Link className="link" style={{ textDecoration: "none"}}  to="/contact">Contact</Link></h3>
             </div>
             <div className="projects">
+                <div className="project1" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
+                    <div className='middle'>
+                        <a href="http://30-apps-challenge.surge.sh/" target="_blank" rel="noopener noreferrer">
+                            <div className='projectInfo' style={{marginTop:"-1.5em"}}>
+                                <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>30 Apps in 30 Days</h1>
+                                <h4>
+                                    A self challenge to create 30 apps in 30 days. Inspired by Jennifer Dewalt.
+                                </h4>
+                                <p style={{color:"lime", padding:"5%", margin: 0}}>React, JavaScript, multiple third party API's, Axios, Node.js, JSX, HTML, & CSS</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
                 <div className="project2" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
                     <div className='middle'>
                         <a href="http://crypto-dash.surge.sh/" target="_blank" rel="noopener noreferrer">
@@ -53,7 +66,7 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-                <div className="project1" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
+                <div className="project3" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
                     <div className='middle'>
                         <a href="http://cuisine-hunter.surge.sh/" target="_blank" rel="noopener noreferrer">
                             <div className='projectInfo' style={{marginTop:"-1em"}}>
@@ -65,7 +78,7 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-                <div className="project3" style={{cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
+                <div className="project5" style={{cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
                     <div className='middle'>
                         <a href="http://newsies.surge.sh/" target="_blank" rel="noopener noreferrer">
                             <div className='projectInfo' style={{marginTop:"-1em"}}>
@@ -74,19 +87,6 @@ const Projects = () => {
                                 An app created with React.js to help users find news articles with searched information.
                             </h4>
                             <p style={{ color:"lime", padding:"5%", margin: 0}}>React, JavaScript, MongoDB Mongoose, Axios, Node.js, JSX, HTML, & CSS</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div className="project5 project4" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
-                    <div className='middle'>
-                        <a href="http://ibrahim-axios.surge.sh/" target="_blank" rel="noopener noreferrer">
-                            <div className='projectInfo' style={{marginTop:"-1.2em"}}>
-                                <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>To Do List</h1>
-                                <h4>
-                                    An app created with vanilla JavaScript designed to help users organize/manage to do items on their to do list.
-                                </h4>
-                                <p style={{color:"lime", padding:"5%", margin: 0}}>Pure vanilla JavaScript, HTML, Axios, & CSS</p>
                             </div>
                         </a>
                     </div>
