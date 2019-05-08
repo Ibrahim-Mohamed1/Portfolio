@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom"
 import logo from "./logo.png"
+import Footer from "./Footer"
 
 const Projects = () => {
     const styles={
@@ -59,7 +60,7 @@ const Projects = () => {
                             <div className='projectInfo' style={{marginTop:"-1.5em"}}>
                                 <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>Crypto Dash</h1>
                                 <h4>
-                                    An app created with React.js to help users quickly track cryptocurrency stocks live whilst keeping up to date with the latest crypto news.
+                                    Simple app to help users quickly track cryptocurrency stocks live whilst keeping up to date with the latest crypto news.
                                 </h4>
                                 <p style={{color:"lime", padding:"5%", margin: 0}}>React, JavaScript, MongoDB, Mongoose, Axios, Node.js, JSX, HTML, & CSS</p>
                             </div>
@@ -83,7 +84,7 @@ const Projects = () => {
                         <a href="http://newsies.surge.sh/" target="_blank" rel="noopener noreferrer">
                             <div className='projectInfo' style={{marginTop:"-1em"}}>
                             <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>Newsies</h1>
-                            <h4>
+                            <h4 style={{margin: 0}}>
                                 An app created with React.js to help users find news articles with searched information.
                             </h4>
                             <p style={{ color:"lime", padding:"5%", margin: 0}}>React, JavaScript, MongoDB Mongoose, Axios, Node.js, JSX, HTML, & CSS</p>

@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from "./logo.png"
 import {Link} from "react-router-dom"
+import Footer from "./Footer"
 
 const Home = () => {
     const styles={
