@@ -46,10 +46,10 @@ const Projects = () => {
                         <a href="http://30-apps-challenge.surge.sh/" target="_blank" rel="noopener noreferrer">
                             <div className='projectInfo' style={{marginTop:"-1.5em"}}>
                                 <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>
-                                    JavaScript30
+                                    JavaScript 30
                                 </h1>
                                 <h4>
-                                    A self challenge to create 30 pure vanilla Javascript apps in 30 days. Inspired by Wes Bos.
+                                    A challenge to create 30 pure vanilla Javascript apps in 30 days. Inspired by Wes Bos.
                                 </h4>
                                 <p style={{color:"lime", padding:"5%", margin: 0}}>
                                     JavaScript, HTML, & CSS
@@ -67,7 +67,7 @@ const Projects = () => {
                             <div className='projectInfo' style={{marginTop:"-1.5em"}}>
                                 <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>30 Apps in 30 Days</h1>
                                 <h4>
-                                    A self challenge to create 30 apps in 30 days. Inspired by Jennifer Dewalt.
+                                    A challenge to create 30 apps in 30 days. Inspired by Jennifer Dewalt.
                                 </h4>
                                 <p style={{color:"lime", padding:"5%", margin: 0}}>React, JavaScript, multiple third party API's, Axios, Node.js, JSX, HTML, & CSS</p>
                             </div>
