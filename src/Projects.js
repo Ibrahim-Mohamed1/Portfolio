@@ -54,9 +54,6 @@ const Projects = () => {
                                 <p style={{color:"lime", padding:"5%", margin: 0}}>
                                     JavaScript, HTML, & CSS
                                 </p>
-                                <p style={{ margin: 0, marginRight: 5 }}>
-                                    Made: 06/13/2019
-                                </p>
                             </div>
                         </a>
                     </div>
