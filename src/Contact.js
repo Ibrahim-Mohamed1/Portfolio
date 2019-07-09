@@ -48,7 +48,7 @@ const Contact = (props) => {
                 <h3  style={{...styles.navMargin, color:"#fbbc06"}}><Link className="link" style={{ textDecoration: "none"}} to="/skills">Skills</Link></h3>
                 <h3 className='nav' style={{...styles.navMargin, color:"#fbbc06", marginRight:"3%"}}><Link className="link" style={{ textDecoration: "none",color:"#ff9450"}}  to="/contact">Contact</Link></h3>
             </div>
-            <img style={styles.profilePic} src={profile} alt=""/>
+            <img style={styles.profilePic} src='https://i.pinimg.com/originals/a1/50/2e/a1502e34e6c87df29c998132ce717bdd.png' alt=""/>
             <h1 className="nav connect" style={{...styles.connect, cursor:"default"}}>Let's connect :)</h1>
             <h3 style={styles.email}>
                 Want to get in touch or have a 
