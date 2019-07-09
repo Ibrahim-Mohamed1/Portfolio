@@ -45,6 +45,26 @@ const Projects = () => {
                     <div className='middle'>
                         <a href="http://30-apps-challenge.surge.sh/" target="_blank" rel="noopener noreferrer">
                             <div className='projectInfo' style={{marginTop:"-1.5em"}}>
+                                <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>
+                                    30 Apps in 30 Days
+                                </h1>
+                                <h4>
+                                    A self challenge to create 30 pure vanilla Javascript apps in 30 days. Inspired by Wes Bos.
+                                </h4>
+                                <p style={{color:"lime", padding:"5%", margin: 0}}>
+                                    JavaScript, HTML, & CSS
+                                </p>
+                                <p style={{ margin: 0, marginRight: 5 }}>
+                                    Made: 06/13/2019
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project2" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
+                    <div className='middle'>
+                        <a href="http://30-apps-challenge.surge.sh/" target="_blank" rel="noopener noreferrer">
+                            <div className='projectInfo' style={{marginTop:"-1.5em"}}>
                                 <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>30 Apps in 30 Days</h1>
                                 <h4>
                                     A self challenge to create 30 apps in 30 days. Inspired by Jennifer Dewalt.
@@ -54,7 +74,7 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-                <div className="project2" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
+                <div className="project3" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
                     <div className='middle'>
                         <a href="http://crypto-dash.surge.sh/" target="_blank" rel="noopener noreferrer">
                             <div className='projectInfo' style={{marginTop:"-1.5em"}}>
@@ -67,7 +87,7 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-                <div className="project3" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
+                <div className="project5" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
                     <div className='middle'>
                         <a href="http://cuisine-hunter.surge.sh/" target="_blank" rel="noopener noreferrer">
                             <div className='projectInfo' style={{marginTop:"-1em"}}>
@@ -75,19 +95,6 @@ const Projects = () => {
                                 <h4>An app created with React.js to help users find restuarants in Utah serving desired cuisines.
                                 </h4>
                                 <p style={{color:"lime", padding:"5%", margin: 0}}>JavaScript, React, Axios, HTML, CSS, & JSX</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div className="project5" style={{cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
-                    <div className='middle'>
-                        <a href="http://newsies.surge.sh/" target="_blank" rel="noopener noreferrer">
-                            <div className='projectInfo' style={{marginTop:"-1em"}}>
-                            <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>Newsies</h1>
-                            <h4 style={{margin: 0}}>
-                                An app created with React.js to help users find news articles with searched information.
-                            </h4>
-                            <p style={{ color:"lime", padding:"5%", margin: 0}}>React, JavaScript, MongoDB Mongoose, Axios, Node.js, JSX, HTML, & CSS</p>
                             </div>
                         </a>
                     </div>
