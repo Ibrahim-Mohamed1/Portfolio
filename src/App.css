@@ -226,32 +226,7 @@
   .projects{
     margin-top: 2em;
   }
-  .project1{
-    margin-top: 1em;
-    height: 300px;
-    width: 380px;
-  }
-  .project2{
-    margin-top: 1em;
-    height: 300px;
-    width: 380px;
-  }
-  .project3{
-    margin-top: 1em;
-    height: 300px;
-    width: 380px;
-  }
-  .project4{
-    margin-top: 1em;
-    height: 300px;
-    width: 380px;
-  }
-  .project5{
-    margin-top: 1em;
-    height: 300px;
-    width: 380px;
-  }
-  .project6{
+  .project1, .project2, .project3, .project4, .project5, .project6{
     margin-top: 1em;
     height: 300px;
     width: 380px;
