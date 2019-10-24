@@ -18,7 +18,10 @@ const Skills = () => {
             marginLeft: "5%",
         },
         svg: {
-            
+            width: "15%", 
+            margin: "0% 2% 2% 2%", 
+            backgroundColor: "#d3d3d379", 
+            borderRadius: 5
         }
     }
     return (
