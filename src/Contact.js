@@ -22,20 +22,21 @@ const Contact = (props) => {
             display:"block",
             margin: "auto",
             width: 300,
-            marginTop: '6em',
+            marginTop: '5em',
             borderRadius: 20
         },
         connect:{
             color:"#ff9450",
             textAlign:"center",
-            marginTop: "1.5em",
+            marginTop: "1.3em",
             
         },
         email:{
             color:"white",
             textAlign:"center",
-            marginTop: "1.5em",
-            lineHeight: 1.3
+            marginTop: "1.3em",
+            lineHeight: 1.3,
+            marginBottom: "2rem"
         }
     }
     return (
