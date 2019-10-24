@@ -64,32 +64,7 @@
 .project6{
   background-image: url(https://i.pinimg.com/originals/e6/bc/2f/e6bc2f60a9416690f598fe9e01d20983.png);
 }
-.project1:hover{
-  background-image: url(./screenshots/default.jpg);
-  opacity: .7;
-  cursor: "pointer";
-}
-.project2:hover{
-  background-image: url(./screenshots/default.jpg);
-  opacity: .7;
-  cursor: "pointer";
-}
-.project3:hover{
-  background-image: url(./screenshots/default.jpg);
-  opacity: .7;
-  cursor: "pointer";
-}
-.project4:hover{
-  background-image: url(./screenshots/default.jpg);
-  opacity: .7;
-  cursor: "pointer";
-}
-.project5:hover{
-  background-image: url(./screenshots/default.jpg);
-  opacity: .7;
-  cursor: "pointer";
-}
-.project6:hover{
+.project1:hover, .project2:hover, .project3:hover, .project4:hover, .project5:hover, .project6:hover{
   background-image: url(./screenshots/default.jpg);
   opacity: .7;
   cursor: "pointer";
