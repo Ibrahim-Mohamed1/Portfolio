@@ -208,22 +208,7 @@
   }
 } 
 @media (max-width: 882px){
-  .project1{
-    margin-top: 2em;
-    height: 230px;
-    width: 300px;
-  }
-  .project2{
-    margin-top: 2em;
-    height: 230px;
-    width: 300px;
-  }
-  .project3{
-    margin-top: 2em;
-    height: 230px;
-    width: 300px;
-  }
-  .project4{
+  .project1, .project2, .project3, .project4, .project5, .project6{
     margin-top: 2em;
     height: 230px;
     width: 300px;
