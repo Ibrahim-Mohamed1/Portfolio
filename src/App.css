@@ -32,7 +32,7 @@
 .projects {
   text-align: center;
 }
-.project1{
+.project1, .project2, .project3, .project4, .project5, .project6{
   position: relative;
   display:inline-block;
   margin: 0% 2%;
