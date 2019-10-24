@@ -16,15 +16,6 @@ const Skills = () => {
         },
         navMargin: {
             marginLeft: "5%",
-        },
-        button: {
-            zoom: 2,
-            display: "block",
-            margin: "auto",
-            cursor: "pointer",
-            outline: "none",
-            borderRadius: 5,
-            fontSize: ".80em",
         }
     }
     return (
