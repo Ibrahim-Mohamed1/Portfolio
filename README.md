@@ -1,4 +1,4 @@
-http://ibrahim-mohamed-dev.surge.sh/
+http://ibrahimmohamed.dev
 
 ## Available Scripts
 
