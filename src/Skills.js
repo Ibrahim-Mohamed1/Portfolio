@@ -16,6 +16,9 @@ const Skills = () => {
         },
         navMargin: {
             marginLeft: "5%",
+        },
+        svg: {
+            
         }
     }
     return (
