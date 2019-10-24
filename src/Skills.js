@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom"
 import logo from "./logo.png"
 
-const Resume = () => {
+const Skills = () => {
     const styles = {
         parent: {
             display: "flex",
@@ -143,4 +143,4 @@ const Resume = () => {
     );
 };
 
-export default Resume;
+export default Skills;
