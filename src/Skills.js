@@ -17,11 +17,6 @@ const Skills = () => {
         navMargin: {
             marginLeft: "5%",
         },
-        reachOut: {
-            color: "white",
-            textAlign: "center",
-            marginTop: "1.5em",
-        },
         button: {
             zoom: 2,
             display: "block",
