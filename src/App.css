@@ -147,6 +147,16 @@
   opacity: .7;
   cursor: "pointer";
 }
+.project5:hover{
+  background-image: url(./screenshots/default.jpg);
+  opacity: .7;
+  cursor: "pointer";
+}
+.project6:hover{
+  background-image: url(./screenshots/default.jpg);
+  opacity: .7;
+  cursor: "pointer";
+}
 .middle{
   opacity: 0;
   position: absolute;
