@@ -1,8 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom"
 import logo from "./logo.png"
-import profile from "./screenshots/profile.png"
-
+import Footer from "./Footer"
 const Contact = (props) => {
     const styles={
         parent:{
@@ -59,6 +58,7 @@ const Contact = (props) => {
                 <br/>
                 or message me on <a href="https://www.linkedin.com/in/ibrahim-mohamed-/" target="_blank" rel="noopener noreferrer"  style={{textDecoration: "none", color:"#ff9450"}}>LinkedIn</a>.
             </h3>
+            <Footer/>
         </>
     );
 };

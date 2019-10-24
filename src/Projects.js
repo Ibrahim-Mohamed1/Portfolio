@@ -43,7 +43,7 @@ const Projects = () => {
             <div className="projects">
                 <div className="project1" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
                     <div className='middle'>
-                        <a href="http://30-apps-challenge.surge.sh/" target="_blank" rel="noopener noreferrer">
+                        <a href="http://javascript30-home.surge.sh/" target="_blank" rel="noopener noreferrer">
                             <div className='projectInfo' style={{marginTop:"-1.5em"}}>
                                 <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>
                                     JavaScript 30

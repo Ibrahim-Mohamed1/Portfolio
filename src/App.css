@@ -31,88 +31,40 @@
   }
 .projects {
   text-align: center;
-  grid-gap: 10px;
-  margin-top: 10px;
-  margin-left: 15%;
-  margin-right: 15%;
-  height: 80vh;
+}
+.project1, .project2, .project3, .project4, .project5, .project6{
+  position: relative;
+  display:inline-block;
+  margin: 0% 2%;
+  border: solid white;
+  border-radius: 10px;
+  background-color:rgba(255, 255, 255, 0.8);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 280px;
+  width: 400px;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 .project1{
-  position: relative;
   background-image: url(https://i.pinimg.com/originals/f6/2d/12/f62d12fb05351f2c6b9b174e4b03b977.png);
-  display:inline-block;
-  margin: 0% 2%;
-  border: solid ;
-  border-radius: 10px;
-  background-color:rgba(255, 255, 255, 0.8);
-  margin-top: 20px;
-  margin-bottom: 10px;
-  height: 280px;
-  width: 400px;
-  transition: .5s ease;
-  backface-visibility: hidden;
 }
 .project2{
-  position: relative;
   background-image: url(https://i.pinimg.com/originals/9f/00/b1/9f00b14210c0260976f2f763555c7dec.png);
-  display:inline-block;
-  margin: 0% 2%;
-  border: solid ;
-  border-radius: 10px;
-  background-color:rgba(255, 255, 255, 0.8);
-  margin-top: 20px;
-  margin-bottom: 10px;
-  height: 280px;
-  width: 400px;
-  transition: .5s ease;
-  backface-visibility: hidden;
 }
 .project3{
-  position: relative;
   background-image: url(https://i.pinimg.com/originals/b4/fd/10/b4fd10fb0548e9f1d4f96bf05fd25666.png);
-  display:inline-block;
-  margin: 0% 2%;
-  border: solid ;
-  border-radius: 10px;
-  background-color:rgba(255, 255, 255, 0.8);
-  margin-top: 20px;
-  margin-bottom: 10px;
-  height: 280px;
-  width: 400px;
-  transition: .5s ease;
-  backface-visibility: hidden;
+}
+.project4{
+  background-image: url(https://i.pinimg.com/originals/e6/bc/2f/e6bc2f60a9416690f598fe9e01d20983.png);
 }
 .project5{
-  position: relative;
   background-image: url(https://i.pinimg.com/originals/e6/bc/2f/e6bc2f60a9416690f598fe9e01d20983.png);
-  display:inline-block;
-  margin: 0% 2%;
-  border: solid ;
-  border-radius: 10px;
-  background-color:rgba(255, 255, 255, 0.8);
-  margin-top: 20px;
-  margin-bottom: 10px;
-  height: 280px;
-  width: 400px;
-  transition: .5s ease;
-  backface-visibility: hidden;
 }
-.project1:hover{
-  background-image: url(./screenshots/default.jpg);
-  opacity: .7;
-  cursor: "pointer";
+.project6{
+  background-image: url(https://i.pinimg.com/originals/e6/bc/2f/e6bc2f60a9416690f598fe9e01d20983.png);
 }
-.project2:hover{
-  background-image: url(./screenshots/default.jpg);
-  opacity: .7;
-  cursor: "pointer";
-}
-.project3:hover{
-  background-image: url(./screenshots/default.jpg);
-  opacity: .7;
-  cursor: "pointer";
-}
-.project5:hover{
+.project1:hover, .project2:hover, .project3:hover, .project4:hover, .project5:hover, .project6:hover{
   background-image: url(./screenshots/default.jpg);
   opacity: .7;
   cursor: "pointer";
@@ -144,13 +96,13 @@
 .button{
   color: lightgray;
   background-color: rgba(0, 0, 0, 0);
-  border: solid 1px #ff9450;
+  border: solid white1px #ff9450;
   transition: ease-in;
   transition-duration: 1s;
 }
 .button:hover{
   color: #ff9450;
-  border: solid 1px gray;
+  border: solid white1px gray;
   transition: ease-in;
   transition-duration: .5s;
 }
@@ -160,30 +112,15 @@
   padding: 1%;
 }
 
-
 @media (max-width: 1260px){
   .projects{
     margin-left: 0;
     margin-right: 0;
   }
 } 
+
 @media (max-width: 882px){
-  .project1{
-    margin-top: 2em;
-    height: 230px;
-    width: 300px;
-  }
-  .project2{
-    margin-top: 2em;
-    height: 230px;
-    width: 300px;
-  }
-  .project3{
-    margin-top: 2em;
-    height: 230px;
-    width: 300px;
-  }
-  .project5{
+  .project1, .project2, .project3, .project4, .project5, .project6{
     margin-top: 2em;
     height: 230px;
     width: 300px;
@@ -197,63 +134,30 @@
     padding: 1%;
   }
 } 
+
 @media (max-width: 665px){
   .projects{
     margin-top: 2em;
   }
-  .project1{
+  .project1, .project2, .project3, .project4, .project5, .project6{
     margin-top: 1em;
     height: 300px;
     width: 380px;
-  }
-  .project2{
-    margin-top: 1em;
-    height: 300px;
-    width: 380px;
-  }
-  .project3{
-    margin-top: 1em;
-    height: 300px;
-    width: 380px;
-  }
-  .project5{
-    margin-top: 1em;
-    height: 300px;
-    width: 380px;
-  }
-  .project4{
-    margin-bottom: 5em;
   }
 } 
+
 @media (max-width: 520px){
   
   .projects{
     margin-top: 2em;
   }
-  .project1{
+  .project1, .project2, .project3, .project4, .project5, .project6{
     margin-top: 1em;
     height: 250px;
     width: 300px;
-  }
-  .project2{
-    margin-top: 1em;
-    height: 250px;
-    width: 300px;
-  }
-  .project3{
-    margin-top: 1em;
-    height: 250px;
-    width: 300px;
-  }
-  .project5{
-    margin-top: 1em;
-    height: 250px;
-    width: 300px;
-  }
-  .project4{
-    margin-bottom: 5em;
   }
 } 
+
 @media (min-height: 820px){
   .projects{
     margin-top: 4em;
