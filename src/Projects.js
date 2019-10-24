@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom"
 import logo from "./logo.png"
-import Footer from "./Footer"
 
 const Projects = () => {
     const styles={
@@ -18,17 +17,6 @@ const Projects = () => {
         navMargin:{
             marginLeft: "5%",
             textDecoration: "none"
-        },
-        project:{
-            display:"inline-block",
-            margin: "0% 2%", 
-            border:"solid ",
-            borderRadius: 10,
-            backgroundColor:"rgba(255, 255, 255, 0.8)",
-            marginTop: 20,
-            marginBottom: 10,
-            height: 280,
-            width: 400
         }
     }
     return (
@@ -62,7 +50,7 @@ const Projects = () => {
                     <div className='middle'>
                         <a href="http://30-apps-challenge.surge.sh/" target="_blank" rel="noopener noreferrer">
                             <div className='projectInfo' style={{marginTop:"-1.5em"}}>
-                                <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>30 Apps in 30 Days</h1>
+                                <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>React 30 in 30</h1>
                                 <h4>
                                     A challenge to create 30 apps in 30 days. Inspired by Jennifer Dewalt.
                                 </h4>
@@ -84,7 +72,31 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
+                <div className="project4" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
+                    <div className='middle'>
+                        <a href="http://cuisine-hunter.surge.sh/" target="_blank" rel="noopener noreferrer">
+                            <div className='projectInfo' style={{marginTop:"-1em"}}>
+                                <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>Cuisine Hunter</h1>
+                                <h4>An app created with React.js to help users find restuarants in Utah serving desired cuisines.
+                                </h4>
+                                <p style={{color:"lime", padding:"5%", margin: 0}}>JavaScript, React, Axios, HTML, CSS, & JSX</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
                 <div className="project5" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
+                    <div className='middle'>
+                        <a href="http://cuisine-hunter.surge.sh/" target="_blank" rel="noopener noreferrer">
+                            <div className='projectInfo' style={{marginTop:"-1em"}}>
+                                <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>Cuisine Hunter</h1>
+                                <h4>An app created with React.js to help users find restuarants in Utah serving desired cuisines.
+                                </h4>
+                                <p style={{color:"lime", padding:"5%", margin: 0}}>JavaScript, React, Axios, HTML, CSS, & JSX</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project6" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
                     <div className='middle'>
                         <a href="http://cuisine-hunter.surge.sh/" target="_blank" rel="noopener noreferrer">
                             <div className='projectInfo' style={{marginTop:"-1em"}}>
