@@ -8,9 +8,9 @@ const Home = () => {
             display: "flex",
             flexDirection:"row",
             justifyContent:"space-between",
-            padding: 10
         },
         logo:{
+            padding: 10,
             width: 40,
             marginRight: "auto"
         },
