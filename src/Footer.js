@@ -6,7 +6,7 @@ const Footer = () => {
         parent:{
             display:"flex",
             justifyContent:"center",
-            position:"fixed",
+            // position:"fixed",
             bottom: 0,
             width:"100vw",
             marginTop: 50
